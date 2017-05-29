@@ -5,7 +5,7 @@
 
 CKEDITOR.editorConfig = function(config)
 {
-	config.language = 'en';
+	config.language = 'pl';
 	config.skin = intelli.config.ckeditor_skin || 'moono-lisa';
 	config.filebrowserImageUploadUrl = intelli.config.ia_url + 'actions/?action=ckeditor_upload&Type=Image';
 	config.allowedContent = true;
